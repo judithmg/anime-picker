@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #36435c;
+}
+
+.img__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.anime-pic {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.random-pic {
+  height: 230px;
+  width: 130px;
+  margin: 10px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #ffffff80;
+}
+
+.title-jap {
+  font-size: 2em;
+  font-weight: 900;
+  color: #ffffff80;
+}
+
+.numbers__container {
+  font-size: 1em;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.syn__container {
+  margin: 10px;
+  line-height: 2em;
+}
+
+h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.info__container {
+}
+
+.genres__container {
+  padding: 10px;
+}
+
+.img-recs__container {
+  background-color: #4f545e;
+  padding: 10px;
+}
+
+.img-recs__slider {
+  width: 80vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
+}
+
+.img-recs__slider::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.img-recs__slider::-webkit-scrollbar-thumb {
+  background: rgba(184, 184, 184, 0.541);
+  border-radius: 10px;
+}
+.img-recs__slider::-webkit-scrollbar-track {
+  background: transparent;
+}

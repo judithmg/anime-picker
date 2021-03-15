@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIME PICKER</title>
+    <link rel="stylesheet" href="../details/anime_details.css" />
+    <link rel="stylesheet" href="animepicker.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav__logo"><img src="../logo.png" alt="" /></div>
+      <div class="nav__search">
+        <div class="nav__search-bar">
+          <i class="fas fa-search"></i>
+          <input type="text" class="search-value" />
+          <button class="btn-submit" onclick="searchOption()">SEARCH</button>
+        </div>
+        <div class="nav__search-results"></div>
+      </div>
+      <div class="nav__login"></div>
+    </nav>
+
+    <div class="main__slider">
+      <h2>CURRENTLY AIRING</h2>
+      <div class="main__airing">
+        <div class="airing-container"></div>
+      </div>
+    </div>
+
+    <div class="main__slider">
+      <h2>MOST POPULAR</h2>
+      <div class="main__popular">
+        <div class="popular-container"></div>
+      </div>
+    </div>
+
+    <div class="main__slider">
+      <h2>TOP MANGA</h2>
+      <div class="main__manga">
+        <div class="manga-container"></div>
+      </div>
+    </div>
+
+    <div class="main__results"></div>
+    <script
+      src="https://kit.fontawesome.com/213b1f39a7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="animepicker.js"></script>
+  </body>
+</html>
