@@ -142,6 +142,7 @@ nav {
   border: none;
   border-radius: 5px;
   padding: 5px 20px;
+  cursor: pointer;
 }
 .btn-picker:hover {
   background-color: #89dd1cb2;
